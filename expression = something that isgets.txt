@@ -1,0 +1,4 @@
+expression = something that is/gets calculated. can be a literal
+literal = something that gets used as it is
+identifier = name of something (anything)
+
