@@ -1,0 +1,30 @@
+printing a new line using only 1 print statement: 
+
+print("vowels = " + vowels + \n "consonants = " + consonants) ❌
+print("vowels = " + vowels + "\nconsonants = " + consonants)  ✔️
+
+
+
+
+
+repeat until can be simulated in python by doing while True:
+
+
+break breaks you out of the loop
+
+
+while True:
+	~~~~~~~
+	~~~~~~~
+	~~~~~~~
+	if [condition]:
+		break
+
+is repeat until loop in python
+
+
+
+
+for ch in word:
+is useful
+

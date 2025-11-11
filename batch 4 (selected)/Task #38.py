@@ -6,8 +6,10 @@ ch = ""
 vowels = 0
 consonants = 0
 
-while ch != ".":
+while True:
     ch = input("input a letter ")
+    if ch == ".":
+        break
     while len(ch) > 1 or not ch.isalpha():            #could do ch.isalpha = 1, ch.isaplha = true, not ch.isalpha = 0...... etc
         print("please enter a single letter ")
         ch = input("input a letter ")

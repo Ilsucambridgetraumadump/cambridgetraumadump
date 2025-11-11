@@ -1,5 +1,19 @@
 def push(new_item):
-    pass
+    global top, my_stack
+    added = False
+    if top == len(my_stack):
+        print("stack is full")
+    else:
+        i = 0
+        while i <= len(my_stack):
+            if my_stack[i] != "":
+                i = i + 1
+            else:
+                my_stack[i] = new_item
+                added = True
+    return added
+
+    
 
 def pop():
     pass
@@ -26,7 +40,9 @@ while choice != "5":
     print("5 to quit ")
     choice = input("Select the menu option")
     if choice == "1":
-        pass
+        new_item = input("enter item to push")
+        push(new_item)
+
     elif choice == "2":
         pass
     elif choice == "3":
