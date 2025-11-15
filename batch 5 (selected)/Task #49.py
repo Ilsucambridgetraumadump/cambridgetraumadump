@@ -6,12 +6,14 @@
 
 word = input("gimme wourd ")
 ch = input("gimme character ")
+newstirn = ""
 
 for i in range(len(word)):
     char = word[i]
-    newstirn = word[:i]
     if ch == char:
-        newstirn = word[:i - 1]
+        newstirn = newstirn
+    else:
+        newstirn = newstirn + char
     
     
-print(i, newstirn)
+print(newstirn)
